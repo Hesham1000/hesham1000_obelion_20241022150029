@@ -1,0 +1,85 @@
+/* RegisterForm.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+nav a.active {
+  border-bottom: 2px solid #007BFF;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+form a {
+  display: block;
+  margin: 10px 0;
+  color: #007BFF;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #666;
+}
